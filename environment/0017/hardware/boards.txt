@@ -1,0 +1,35 @@
+##############################################################
+
+displayduinoa.name=Displayduino Tall
+displayduinoa.upload.protocol=stk500
+displayduinoa.upload.maximum_size=28672
+displayduinoa.upload.speed=19200
+displayduinoa.bootloader.low_fuses=0xFF
+displayduinoa.bootloader.high_fuses=0xD8
+displayduinoa.bootloader.extended_fuses=0xFD
+displayduinoa.bootloader.path=displayduino-tall
+displayduinoa.bootloader.file=ATmegaBOOT_324P.hex
+displayduinoa.bootloader.unlock_bits=0x3F
+displayduinoa.bootloader.lock_bits=0x0F
+displayduinoa.build.mcu=atmega324p
+displayduinoa.build.f_cpu=20000000L
+displayduinoa.build.core=displayduino
+displayduinoa.verbose=false
+
+##############################################################
+
+displayduinob.name=Displayduino Grande
+displayduinob.upload.protocol=stk500
+displayduinob.upload.maximum_size=63488
+displayduinob.upload.speed=19200
+displayduinob.bootloader.low_fuses=0xFF
+displayduinob.bootloader.high_fuses=0xDC
+displayduinob.bootloader.extended_fuses=0xFD
+displayduinob.bootloader.path=displayduino-grande
+displayduinob.bootloader.file=ATmegaBOOT_644P.hex
+displayduinob.bootloader.unlock_bits=0x3F
+displayduinob.bootloader.lock_bits=0x0F
+displayduinob.build.mcu=atmega644p
+displayduinob.build.f_cpu=20000000L
+displayduinob.build.core=displayduino
+displayduinob.verbose=false
